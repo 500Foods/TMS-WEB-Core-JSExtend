@@ -8,7 +8,7 @@ This repository contains the complete source code for a Delphi package consistin
 - Download the repository ZIP and unzip into your usual Delphi Projects folder.
 - Navigate to the DeSign-Time folder and load the JSExtend project.
 - Using the Project Manager window, right-clcik on JSExtend.bpl and select 'Install'.
-- This should install the TJSFlatPickr component.
+- You should see a message that the TJSFlatPickr component has been installed.
 
 2. For the Run-Time/JSFlatPickr.pas file, there are (at least) two options.
 - The Run-Time/JSFlatPickr.pas can be added to your project directly OR
