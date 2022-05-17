@@ -1,0 +1,36 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{0BE6E1B3-2FF5-4759-A40C-71F01324975E}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="JSExtend.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="JSExtend">
+        <MSBuild Projects="JSExtend.dproj"/>
+    </Target>
+    <Target Name="JSExtend:Clean">
+        <MSBuild Projects="JSExtend.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="JSExtend:Make">
+        <MSBuild Projects="JSExtend.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="JSExtend"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="JSExtend:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="JSExtend:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>
