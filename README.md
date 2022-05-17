@@ -10,11 +10,11 @@ This repository contains the complete source code for a Delphi package consistin
 - Using the Project Manager window, right-clcik on JSExtend.bpl and select 'install'.
 - This should install the TJSFlatPickr component.
 
-2. For the Run-Time\JSFlatPickr.pas file, there are (at least) two options.
-- The Run-Time\JSFlatPickr.pas can be added to your project directly OR
+2. For the Run-Time/JSFlatPickr.pas file, there are (at least) two options.
+- The Run-Time/JSFlatPickr.pas can be added to your project directly OR
 - Go to the Delphi Tools/Options... menu, and then under TMS WEB / Options / Library Path, add the Run-Time folder.
 
-3. Add the FlatPickr JS Library to your Project.html file.
+3. Add the FlatPickr JS Library JS and CSS CDN links to your Project.html file. For example:
 ```
 <script src="https://cdn.jsdelivr.net/npm/flatpickr@latest/dist/flatpickr.min.js"></script>
 <link href="https://cdn.jsdelivr.net/npm/flatpickr@latest/dist/flatpickr.min.css" rel="stylesheet"/>
