@@ -9,5 +9,5 @@ If you find this repository useful to your work or that it has saved you time or
 
 Enjoy!
 
-Andrew Simard, Founder,
+Andrew Simard, Founder,  
 500 Foods Corporation.
