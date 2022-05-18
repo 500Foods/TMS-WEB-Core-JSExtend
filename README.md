@@ -1,6 +1,6 @@
 # TMS-WEB-Core-JSExtend
 
-This repository contains the complete source code for a Delphi package consisting of components designed for use within TMS WEB Core projects.  These components are wrappers (mostly) for popular JavaScript libraries. The first such component, a wrapper for [FlatPickr](https://flatpickr.js.org/), was first published along with the TMS Software blog post that relates to it, on May 17, 2022.
+This repository contains the complete source code for a Delphi package consisting of components designed for use within TMS WEB Core projects.  These components are wrappers (mostly) for popular JavaScript libraries. The first such component, a wrapper for [FlatPickr](https://flatpickr.js.org/), was first published along with the TMS Software Blog [post](https://www.tmssoftware.com/site/blog.asp?post=937) that relates to it, on May 17, 2022.
 
 **Installation**
 
