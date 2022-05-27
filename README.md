@@ -26,7 +26,7 @@ Once installed, you should be able to find the TJSFlatPickr component at the bot
 
 Additional information about how to use each of the JSExtend elements can be found on these pages.
 
-- [TJSFlatPickr](Documentation/JSFlatPickr.md)
+- [TJSFlatPickr](Documentation/TJSFlatPickr.md)
 - [Luxon](Documentation/Luxon.md)
 
 &nbsp;
