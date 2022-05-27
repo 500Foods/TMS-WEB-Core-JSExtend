@@ -6,22 +6,24 @@ This repository contains the complete source code for a Delphi package consistin
 
 1. For the Design-Time Package, follow these steps.
 - Download the repository ZIP and unzip into your usual Delphi Projects folder.
-- Navigate to the DeSign-Time folder and load the JSExtend project.
+- Navigate to the Design-Time folder and load the JSExtend project.
 - Using the Project Manager window, right-clcik on JSExtend.bpl and select 'Install'.
-- You should see a message that the TJSFlatPickr component has been installed.
+- You should see a message that components have been installed.
 
-2. For the Run-Time/JSFlatPickr.pas file, there are (at least) two options.
-- The Run-Time/JSFlatPickr.pas can be added to your project directly OR
+2. For the Run-Time files, there are (at least) two options.
+- The individual Run-Time files can be added to your project directly OR
 - Go to the Delphi Tools/Options... menu, and then under TMS WEB / Options / Library Path, add the Run-Time folder.
 
-3. Add the FlatPickr JS Library JS and CSS CDN links to your Project.html file. For example:
+3. Add the JS and CSS CDN links to your Project.html file. There aren't any dependencies here, so if you only need one particular JS library, you can include only that set of links. For example:
 ```
+<!-- Flatpickr -->
 <script src="https://cdn.jsdelivr.net/npm/flatpickr@latest/dist/flatpickr.min.js"></script>
 <link href="https://cdn.jsdelivr.net/npm/flatpickr@latest/dist/flatpickr.min.css" rel="stylesheet"/>
+<!-- Luxon -->
+<script src="https://cdn.jsdelivr.net/npm/luxon@latest/build/global/luxon.min.js"></script>
 ```
-Once installed, you should be able to find the TJSFlatPickr component at the bottom of the Delphi Component Palette (in the JSExtend Group) when editing a TMS WEB Core TWebForm.  Drop the component onto the form and then set the (many!) Object Insepctor properties as desired, and the FlatPickr control should appear once the project is run.  There's not much to see directly in the IDE.
+Once installed, you should be able to find the Delphi IDE components at the bottom of the Delphi Component Palette (in the JSExtend Group) when editing a TMS WEB Core TWebForm.  Drop the component onto the form and then set the Object Insepctor properties as desired, and the control should appear once the project is run.  There's not much to see directly in the IDE, as these kinds of controls are rendered entirely in HTML and CSS, using JavaScript, so the Delphi IDE is unable to render anything of much use here.
 
-&nbsp;  
 **Documentation**
 
 Additional information about how to use each of the JSExtend elements can be found on these pages.
