@@ -22,6 +22,12 @@ This repository contains the complete source code for a Delphi package consistin
 Once installed, you should be able to find the TJSFlatPickr component at the bottom of the Delphi Component Palette (in the JSExtend Group) when editing a TMS WEB Core TWebForm.  Drop the component onto the form and then set the (many!) Object Insepctor properties as desired, and the FlatPickr control should appear once the project is run.  There's not much to see directly in the IDE.
 
 &nbsp;  
+**Documentation**
+
+Additional information about how to use each of the JSExtend elements can be found on these pages.
+
+- [TJSFlatPickr](Documentation/JSFlatPickr.md]
+- [Luxon](Documentation/Luxon.md)
 
 If you find this repository useful to your work, or that it has saved you time or effort when it comes to crafting a better TMS WEB Core project, please consider supporting my efforts via "[Buy Me A :pizza:](https://www.buymeacoffee.com/andrewsimard500)". You may also be interested in my other repositories here on GitHub:
 - [TMS WEB Core JSON Primer](https://github.com/500Foods/TMS-WEB-Core-JSON-Primer)
