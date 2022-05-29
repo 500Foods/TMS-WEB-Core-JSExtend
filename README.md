@@ -34,7 +34,8 @@ Additional information about how to use each of the JSExtend elements can be fou
 
 &nbsp;
 
-If you find this repository useful to your work, or that it has saved you time or effort when it comes to crafting a better TMS WEB Core project, please consider supporting my efforts via "[Buy Me A :pizza:](https://www.buymeacoffee.com/andrewsimard500)". You may also be interested in my other repositories here on GitHub:
+If you find this repository useful to your work, or that it has saved you time or effort when it comes to crafting a better TMS WEB Core project, please consider supporting my efforts via "[Buy Me A :pizza:](https://www.buymeacoffee.com/andrewsimard500)". You may also be interested in my other projects/repositories here on GitHub:
+- [TMS Blog To-Do List](https://github.com/users/500Foods/projects/1)
 - [TMS WEB Core JSON Primer](https://github.com/500Foods/TMS-WEB-Core-JSON-Primer)
 
 &nbsp;  
