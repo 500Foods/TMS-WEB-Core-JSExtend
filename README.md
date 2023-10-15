@@ -26,19 +26,32 @@ This repository contains the complete source code for a Delphi package consistin
 Once installed, you should be able to find the Delphi IDE components at the bottom of the Delphi Component Palette (in the JSExtend Group) when editing a TMS WEB Core TWebForm.  Drop the component onto the form and then set the Object Insepctor properties as desired, and the control should appear once the project is run.  There's not much to see directly in the IDE, as these kinds of controls are rendered entirely in HTML and CSS, using JavaScript, so the Delphi IDE is unable to render anything of much use here.
 
 **Documentation**
-
 Additional information about how to use each of the JSExtend elements can be found on these pages.
 
 - [TJSFlatPickr](Documentation/TJSFlatPickr.md)
 - [Luxon](Documentation/Luxon.md)
-
-&nbsp;
 
 ## Key Dependencies
 As with any modern web application, other JavaScript libraries/dependencies have been used in this project. Most of the time, this is handled via a CDN link (usually JSDelivr) in the Project.html file. In some cases, for performance or other reasons, they may be included directly.
 - [TMS WEB Core](https://www.tmssoftware.com/site/tmswebcore.asp) - This is a TMS WEB Core project, after all
 - [Flatpickr](https://flatpickr.js.org/) - For handling Date/Time UI
 - [Luxon](https://moment.github.io/luxon/#/) - For handling date/time conversions
+
+## Repository Information
+[![Count Lines of Code](https://github.com/500Foods/TMS-WEB-Core-JSExtend/actions/workflows/main.yml/badge.svg)](https://github.com/500Foods/TMS-WEB-Core-JSExtend/actions/workflows/main.yml)
+```
+-----------------------------------------------------------------------------------
+Language                         files          blank        comment           code
+-----------------------------------------------------------------------------------
+Pascal                               2             50            105            365
+Markdown                             4             52              0            140
+XML                                  2              0              0             30
+YAML                                 2              4              8             15
+Windows Resource File                1              0              0              1
+-----------------------------------------------------------------------------------
+SUM:                                11            106            113            551
+-----------------------------------------------------------------------------------
+```
 
 ## Sponsor / Donate / Support
 If you find this work interesting, helpful, or useful, or that it has sved you time, money, or both, please consider direclty supporting these efforts financially via [GitHub Sponsors](https://github.com/sponsors/500Foods) or donating via [Buy Me a Pizza](https://www.buymeacoffee.com/andrewsimard500). Also, be sure to check out these other [GitHub Repositories](https://github.com/500Foods?tab=repositories&q=&sort=stargazers) that may be of interest to you.
