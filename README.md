@@ -41,18 +41,18 @@ As with any modern web application, other JavaScript libraries/dependencies have
 [![Count Lines of Code](https://github.com/500Foods/TMS-WEB-Core-JSExtend/actions/workflows/main.yml/badge.svg)](https://github.com/500Foods/TMS-WEB-Core-JSExtend/actions/workflows/main.yml)
 <!--CLOC-START -->
 ```
-Last Updated at 2023-11-27 01:52:22 UTC
--------------------------------------------------------------------------------
-Language                     files          blank        comment           code
--------------------------------------------------------------------------------
-Pascal                           2             48             62            160
-Delphi Form                      1              0              0             39
-Markdown                         1              8              2             39
-YAML                             2             11             13             33
-HTML                             2              7              0             23
--------------------------------------------------------------------------------
-SUM:                             8             74             77            294
--------------------------------------------------------------------------------
+Last Updated at 2023-11-27 02:44:40 UTC
+-----------------------------------------------------------------------------------
+Language                         files          blank        comment           code
+-----------------------------------------------------------------------------------
+Pascal                               2             50            105            365
+Markdown                             4             52              4            153
+YAML                                 2              8             12             33
+XML                                  2              0              0             30
+Windows Resource File                1              0              0              1
+-----------------------------------------------------------------------------------
+SUM:                                11            110            121            582
+-----------------------------------------------------------------------------------
 ```
 <!--CLOC-END-->
 
